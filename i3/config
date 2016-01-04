@@ -66,7 +66,8 @@ bindsym $mod+Return exec termite
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+space exec dmenu_run -nb '$status_grey_bg' -nf '$darkred' -fn 'DejaVu\ Sans\ Mono-7.5'
+bindsym $mod+space exec dmenu_run -nb '$status_grey_bg' -nf '$darkred' -fn 'DejaVu\ Sans\ Mono-7.5' -i -p ">_"
+#bindsym $mod+space exec dmenu_run -i -p "Run >" -l 5 -w 320 -h 20 -x 523 -y 274 -dim 0.4
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -127,7 +128,7 @@ set $ws2 "2: data"
 set $ws3 "3: web"
 set $ws4 "4: chat"
 set $ws5 "5: pictures"
-set $ws6 "6: random"
+set $ws6 "6: code"
 set $ws7 7
 set $ws8 8
 set $ws9 9
