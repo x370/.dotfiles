@@ -12,15 +12,15 @@ bindsym $mod+b border toggle
 
 # Hybrid colors
 set $status_grey_bg     #101010
-set $black              #282A2E
+set $black              #4a3637
 set $grey               #373B41
 set $lightgrey          #707880
-set $white              #C5C8C6
-set $yellow             #F0C674
-set $red                #CC6666
-set $darkred            #A54242
-set $green              #B5BD56
-set $purple             #cc6699
+set $white              #c0b18b
+set $yellow             #af865a
+set $red                #d17b48
+set $darkred            #6d715e
+set $green              #7b8748
+set $purple             #775759
 
 #class                  border      backgr.     text        split
 client.focused          $purple     $purple     $black      $red
